@@ -1,14 +1,5 @@
-import Home from './home';
-import Navbar from './navbar';
-import './styles.css';
+import FirstDay from '@/components/FirstDay/FirstDay';
 
-export default function App() {
-  return (
-    <div className={'App'}>
-      <Navbar />
-      <div className={'content'}>
-        <Home />
-      </div>
-    </div>
-  );
-}
+const HomePage = () => <FirstDay />;
+
+export default HomePage;
